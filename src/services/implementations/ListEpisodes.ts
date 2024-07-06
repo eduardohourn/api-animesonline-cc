@@ -11,9 +11,9 @@ export class ListEpisodes {
     const page = await browser.newPage();
 
     if (currentPage) {
-      await page.goto(`https://animesonline.cc/episodio/page/${currentPage}`);
+      await page.goto(`https://animesonlinecc.to/episodio/page/${currentPage}`);
     } else {
-      await page.goto(`https://animesonline.cc/episodio/`);
+      await page.goto(`https://animesonlinecc.to/episodio/`);
     }
     
     
