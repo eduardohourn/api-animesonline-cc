@@ -9,7 +9,7 @@ export class Genres {
 
     const page = await browser.newPage();
 
-    await page.goto('https://animesonline.cc/generos/');
+    await page.goto('https://animesonlinecc.to/generos/');
 
     const genres = await this.listGenres(page);
 
