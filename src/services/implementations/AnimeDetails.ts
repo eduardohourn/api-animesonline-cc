@@ -10,7 +10,7 @@ export class AnimeDetails {
 
     const page = await browser.newPage();
 
-    await page.goto(`https://animesonline.cc/anime/${idAnime}`);
+    await page.goto(`https://animesonlinecc.to/anime/${idAnime}`);
 
     const animeDetails = await this.animeDetails(page);
     const seasonsEpisodesAnime = await this.seasonsEpisodesAnime(page);
