@@ -10,7 +10,7 @@ export class Home {
 
     const page = await browser.newPage();
 
-    await page.goto('https://animesonline.cc/tv/');
+    await page.goto('https://animesonlinecc.to');
 
     const sectionAnimesRecents = await this.animesRecents(page);
     const sectionLatestEpisodes = await this.latestEpisodes(page);
