@@ -10,7 +10,7 @@ export class WatchAnime {
 
     const page = await browser.newPage();
 
-    await page.goto(`https://animesonline.cc/episodio/${idEpisode}`);
+    await page.goto(`https://animesonlinecc.to/episodio/${idEpisode}`);
 
     const watchAnime = await this.watchAnime(page);
 
