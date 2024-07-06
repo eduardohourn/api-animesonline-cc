@@ -10,9 +10,9 @@ export class ListAnimesGenre {
     const page = await browser.newPage();
 
     if (currentPage) {
-      await page.goto(`https://animesonline.cc/genero/${idGenre}/page/${currentPage}`);
+      await page.goto(`https://animesonlinecc.to/genero/${idGenre}/page/${currentPage}`);
     } else {
-      await page.goto(`https://animesonline.cc/genero/${idGenre}`);
+      await page.goto(`https://animesonlinecc.to/genero/${idGenre}`);
     }
     
     const animes = new Animes;
