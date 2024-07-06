@@ -11,9 +11,9 @@ export class FindAnimeNameLike {
     const page = await browser.newPage();
 
     if (currentPage) {
-      await page.goto(`https://animesonline.cc/search/${name}/page/${currentPage}`);
+      await page.goto(`https://animesonlinecc.to/search/${name}/page/${currentPage}`);
     } else {
-      await page.goto(`https://animesonline.cc/search/${name}/`);
+      await page.goto(`https://animesonlinecc.to/search/${name}/`);
     }
 
     const search = await this.WhatWasSearch(page);
