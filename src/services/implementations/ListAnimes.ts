@@ -10,9 +10,9 @@ export class ListAnimes {
     const page = await browser.newPage();
 
     if (currentPage) {
-      await page.goto(`https://animesonline.cc/anime/page/${currentPage}`);
+      await page.goto(`https://animesonlinecc.to/anime/page/${currentPage}`);
     } else {
-      await page.goto(`https://animesonline.cc/anime/`);
+      await page.goto(`https://animesonlinecc.to/anime/`);
     }
 
     const animes = new Animes;
